@@ -1,0 +1,109 @@
+.landing{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9A25E;
+    align-items: center;
+    padding: 30px 140px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media(max-width:996px) {
+    .landing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .landing_button{
+        margin-bottom: 15px;
+    }
+}
+.greet{
+    color: #2B2420;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome{
+    font-family: "Cormorant Garamond";
+    font-weight: 900;
+    font-size: 55px;
+    margin: 0;
+}
+.description{
+    font-family: "Cormorant Upright";
+    font-weight: 600;
+    font-size: 25px;
+}
+.landing_image{
+    height: 250px;
+    border-radius: 8px;
+}
+.landing_button{
+    color:#fff;
+    background-color: #A63A2E;
+    border-radius: 7px;
+    padding: 10px;
+}
+.landing_button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: #AE4D42;
+}
+/*==========================================*/
+.types_contaner{
+    font-size: 24px;
+    display: flex;
+    margin-left: 30px;
+    gap: 40px;
+}
+.types_contaner p{
+    cursor: pointer;
+}
+.types_contaner .active{
+    border-bottom:3px solid #1DAF1F;
+}
+/*==========================================*/
+.cards_container{
+    background-color: #FAF3E7;
+    display: flex;
+    border-radius: 10px;
+    gap: 30px;
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card .info{
+    display: flex;
+    flex-direction: column;
+    background-color: #C9A25E;
+    padding: 8px 5px;
+    font-size: 12px;
+}
+.card .info p{
+    margin: 0;
+}
+.product_name{
+    padding-bottom: 3px;
+}
+.cards_container img{
+    display: block;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+.card .icons_container{
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+.cards_container i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 50%;
+}
